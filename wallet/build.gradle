@@ -92,7 +92,7 @@ android {
         }
         externalNativeBuild {
             cmake {
-                cFlags '-DHAVE_CONFIG_H'
+                cFlags '-DHAVE_CONFIG_H -DWORD=32'
                 cppFlags ""
             }
         }
